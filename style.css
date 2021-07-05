@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+.flex-area{
+    display: flex;
+    height: 100vh;
+    margin-bottom: 120px;
+    
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+
+.color-span{
+    color: slateblue;
+}
+h1{
+    font-size: 5.3rem;
+    color: #575757;
+}
+p{
+    font-size: 30px;
+    color: #696969;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-image:linear-gradient(to right, slateblue,#483D8B);
+    margin-top: 10px;
+    padding: 15px 35px;
+    border-radius: 30px;
+
+}
+
+img {
+    height: 100%;
+    width: 90%;
+}
+
+/* section2 */
+.about-me{
+background-image: url(image/Frame\ 58.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+
+
+}
+ .about-img{
+    height: 100%;
+    margin-left: ;
+    margin-top: 78px;  
+} 
+.about-link{
+    display: inline-block;
+    margin-top: 15px;
+
+}
