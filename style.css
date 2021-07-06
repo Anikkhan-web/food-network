@@ -1,17 +1,59 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
+    
 }
 
 .flex-area{
     display: flex;
 }
+.half-width{
+    max-width: 50%;
+    padding: 10%;
+    
+}
+.navbar{
+    background: rgb(226, 219, 219);
+    opacity: .7;
+    padding: 10px;
+
+}
+.logo{
+    float: left;
+    width: 50%;
+    margin: 10px 130px;
+
+    
+    
+}
+.logo h1{
+    margin-left: 20px;
+    font-size: bold;
+    color: slateblue;
+    
+}
+
+ .navbar .top-menu ul li{
+    margin-right: 90px;
+    list-style: none;
+    padding: 10px;
+    
+}
+.top-menu ul li{
+    margin:10px;
+}
+.top-menu ul li a{
+    list-style: none;
+    margin-right: 15px;
+    
+}
+
 .hight{
     margin-bottom: 70px;
     height:100vh ;
 }
 
-a{
+.half-width a{
     text-decoration: none;
     display: inline-block;
     margin-top: 25px;
@@ -22,17 +64,11 @@ a{
 
 }
 /* hero area start */
-.half-width{
-    max-width: 50%;
-    padding: 4%;
-    
-}
 
 .color-span{
     color: slateblue;
 }
-h1{
-    font-size: 55px;
+h2{
     color: #575757;
 }
 .half-width p{
@@ -47,10 +83,11 @@ h1{
 background-image: url(image/Frame\ 59.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+padding: 35px;
 
 }
  .about-img{
-    margin-top: 285px;
+    margin-top: 233px;
 } 
 /* about me end */
 
@@ -80,7 +117,7 @@ h3{
 
 }
 .recipies-margin {
-   margin-left: 220px;
+   margin-left: 200px;
    
 }
 .recipie-card img{
@@ -95,7 +132,7 @@ h3{
 /* new shape area start */
 .new-area{
     display: flex;
-    margin: 100px 235px 100px 235px;
+    margin: 100px 230px 100px 245px;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
