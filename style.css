@@ -80,14 +80,19 @@ h2{
 
 /* about me start */
 .about-me{
-background-image: url(image/Frame\ 59.jpg);
+background-image: url(image/Frame\ 56.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-padding: 35px;
+
 
 }
+.about-me .blog{
+    padding: 45px;
+
+}
+
  .about-img{
-    margin-top: 233px;
+    margin-top: 190px;
 } 
 /* about me end */
 
