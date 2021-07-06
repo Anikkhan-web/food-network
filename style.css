@@ -1,15 +1,30 @@
 body{
+    font-family: 'Nunito Sans', sans-serif;
     margin: 0;
 }
+
 .flex-area{
     display: flex;
-    height: 100vh;
-    margin-bottom: 120px;
-    
 }
+.hight{
+    margin-bottom: 70px;
+    height:100vh ;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 55px;
+    border-radius: 30px;
+    color: white;
+    background-image:linear-gradient(to right, slateblue,#483D8B);
+
+}
+/* hero area start */
 .half-width{
-    width: 50%;
-    padding: 5%;
+    max-width: 50%;
+    padding: 4%;
     
 }
 
@@ -17,44 +32,92 @@ body{
     color: slateblue;
 }
 h1{
-    font-size: 5.3rem;
+    font-size: 55px;
     color: #575757;
 }
-p{
-    font-size: 30px;
+.half-width p{
+    font-size: 25px;
     color: #696969;
 }
-a{
-    text-decoration: none;
-    color: white;
-    background-image:linear-gradient(to right, slateblue,#483D8B);
-    margin-top: 10px;
-    padding: 15px 35px;
-    border-radius: 30px;
 
-}
+/* hero area end */
 
-img {
-    height: 100%;
-    width: 90%;
-}
-
-/* section2 */
+/* about me start */
 .about-me{
-background-image: url(image/Frame\ 58.jpg);
+background-image: url(image/Frame\ 59.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
-
 
 }
  .about-img{
-    height: 100%;
-    margin-left: ;
-    margin-top: 78px;  
+    margin-top: 285px;
 } 
-.about-link{
-    display: inline-block;
-    margin-top: 15px;
+/* about me end */
+
+
+/* recipie area start */
+.my-recipies{
+    text-align: center;  
+}
+
+.recipie-card{
+
+    margin: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 450px;
+    border-radius:20px ;
+    max-width: 330px;
+    text-align: center;
+    font-size: 15px;
+   
+    
+  
+}
+
+h3{
+    font-weight: bold;
 
 }
+.recipies-margin {
+   margin-left: 220px;
+   
+}
+.recipie-card img{
+    max-height: 250px;
+    margin: 15px; 
+    max-width: 300px;
+    
+}
+/* recipie area end */
+
+
+/* new shape area start */
+.new-area{
+    display: flex;
+    margin: 100px 235px 100px 235px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new-area-style{
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 20px;
+   
+
+}
+/* new shape area end */
+
+/* footer area start */
+footer{
+    text-align: center;
+     padding: 25px;
+    background-color: black;
+    
+}
+footer p{
+    color: rgb(153, 149, 149);
+    
+}
+/* footer area end */
